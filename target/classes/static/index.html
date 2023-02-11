@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>JavaInUse Chat Application | JavaInUse</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+            href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+            rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5455f5940d.css" crossorigin="anonymous">
+    <script
+            src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5455f5940d.js" crossorigin="anonymous"></script>
+    <link href="//db.onlinewebfonts.com/c/d75f8ce2e19eff8c6161c8e7be19f967?family=Radnika" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="welcome-page">
+    <div class="welcome-page-container">
+        <h1 class="title">Say your name, Stranger</h1>
+        <form id="welcomeForm" name="welcomeForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="name"
+                       class="form-control" />
+            </div>
+            <div class="form-group">
+                <button type="submit" onclass="accent username-submit">Lets
+                    Begin</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div id="dialogue-page" class="hidden">
+    <div class="dialogue-container">
+        <div class="dialogue-header">
+            <p>
+                <i class="fa-brands fa-rocketchat fa-2xl fa-shake" style="--fa-animation-duration: 15s;">Chat</i>
+            </p>
+        </div>
+        <ul id="messageList">
+
+        </ul>
+        <form id="dialogueForm" name="dialogueForm" nameForm="dialogueForm">
+            <div class="form-group">
+                <div class="input-group clearfix">
+                    <input type="text" id="chatMessage"
+                           placeholder="Enter a message...." autocomplete="off"
+                           class="form-control" />
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
