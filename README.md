@@ -28,3 +28,5 @@ To start:
     - ./path/to/rabbit/mq/sbin\ rabbitmq-plugins.bat enable rabbitmq_management
 - Go to RabbitMQ console by https://localhost:15672
  
+
+Basic idea of using RabbitMQ for STOMP and how to organize the server - inspired by (c)JavaInUse(https://www.javainuse.com/home)
