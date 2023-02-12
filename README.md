@@ -1,7 +1,6 @@
 # ChatApplication
 Spring boot websocket backend and HTML/CSS client
 
-[Tutorial Link](https://youtu.be/o_IjEDAuo8Y)
 
 Server:
     - Spring boot Websocket Application + STOMP TCP RabbitMQ(Erlang) Brocker
@@ -13,9 +12,11 @@ Client
 
 ## UI screens
 
-![Welcome screen](img/welcome.jpg "Welcome screen")
-![Dialogue screen](img/chat screen.jpg "Dialogue screen")
-![Chat in use](img/chat in use.jpg "Chat in use")
+![Welcome screen](img/welcome.png "Welcome screen")
+
+![Dialogue screen](img/chat_page.png "Dialogue screen")
+
+![Chat in use](img/chat_in_use.png "Chat in use")
 
 
 To start:
